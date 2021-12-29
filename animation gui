@@ -1,0 +1,305 @@
+print("UI library by xHeptc")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Animation gui", "Synapse")
+local Idle = Window:NewTab("Idle animations")
+
+------------------------------------------------------------------------------------------------------------------IDLE
+local IdleSection = Idle:NewSection("Idle animations")
+IdleSection:NewButton("Werewolf idle", "Gives you werewolf idle animation", function()
+        animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083195517"
+        animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083214717"
+end)
+IdleSection:NewButton("Elder idle", "Gives you elder idle animation", function()
+        animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=845397899"
+        animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=845400520"
+end)
+IdleSection:NewButton("Rthro idle", "Gives you rthro idle animation", function()
+        animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=2510196951"
+        animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=2510197257"
+end)
+IdleSection:NewButton("Cartoony idle", "Gives you cartoony idle animation", function()
+        animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=742637544"
+        animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=742638445"
+end)
+IdleSection:NewButton("Mage idle", "Gives you mage idle animation", function()
+        animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
+        animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
+end)
+IdleSection:NewButton("Ninja idle", "Gives you ninja idle animation", function()
+        animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=656117400"
+        animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=656118341"
+end)
+IdleSection:NewButton("Bubbly idle", "Gives you bubbly idle animation", function()
+        animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=910004836"
+        animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=910009958"
+end)
+IdleSection:NewButton("Zombie idle", "Gives you zombie idle animation", function()
+        animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616158929"
+        animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616160636"
+end)
+IdleSection:NewButton("Robot idle", "Gives you robot idle animation", function()
+        animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
+        animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616089559"
+end)
+IdleSection:NewButton("Stylish idle", "Gives you stylish idle animation", function()
+    animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616136790"
+    animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616138447"
+end)
+IdleSection:NewButton("Oldschool idle", "Gives you oldschool idle animation", function()
+    animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+    animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=5319831086"
+end)
+IdleSection:NewButton("Toy idle", "Gives you toy idle animation", function()
+        animation.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+        animation.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782845736"
+
+end)
+------------------------------------------------------------------------------------------------------------------WALK
+local Walk = Window:NewTab("Walk animations")
+local WalkSection = Walk:NewSection("Walk animations")
+WalkSection:NewButton("Werewolf walk", "Gives you werewolf walk animation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083178339"
+end)
+WalkSection:NewButton("Elder walk", "Gives you elder walk animation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=845403856"
+end)
+WalkSection:NewButton("Rthro walk", "Gives you rthro walk animation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=2510202577"
+end)
+WalkSection:NewButton("Cartoony walk", "Gives you cartoony walk animation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=742640026"
+end)
+WalkSection:NewButton("Mage walk", "Gives you mage walk animation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
+end)
+WalkSection:NewButton("Ninja walk", "Gives you ninja walk anmation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=656121766"
+end)
+WalkSection:NewButton("Bubbly walk", "Gives you bubbly walk animation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=910034870"
+end)
+WalkSection:NewButton("Zombie walk", "Gives you zombie walk animation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+end)
+WalkSection:NewButton("Robot walk", "Gives you robot walk animation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616095330"
+end)
+WalkSection:NewButton("Stylish walk", "Gives you stylish walk animation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616146177"
+end)
+WalkSection:NewButton("Oldschool walk", "Gives you oldschool walk animation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204"
+end)
+WalkSection:NewButton("Toy walk", "Gives you toy walk animation", function()
+    animation.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=782843345"
+end)
+------------------------------------------------------------------------------------------------------------------FALL
+local Fall = Window:NewTab("Fall animations")
+local FallSection = Fall:NewSection("Fall animations")
+FallSection:NewButton("Werewolf fall", "Gives you werewolf fall animation", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
+end)
+FallSection:NewButton("Elder fall", "Gives you elder fall animation", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=845396048"
+end)
+FallSection:NewButton("Rthro fall", "Gives you rthro fall animation", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
+end)
+FallSection:NewButton("Cartoony fall", "Gives you cartoony fall animation", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=742637151"
+end)
+FallSection:NewButton("Mage fall", "Gives you mage fall animation", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+end)
+FallSection:NewButton("Ninja fall", "Gives you ninja fall animation", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
+end)
+FallSection:NewButton("Bubbly fall", "Gives you bubbly fall animation", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=910001910"
+end)
+FallSection:NewButton("Zombie fall", "Gives you zombie fall animation", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616157476"
+end)
+FallSection:NewButton("Robot fall", "Gives you robot fall animation", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616087089"
+end)
+FallSection:NewButton("Stylish fall", "Gives you stylish fall animation", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616134815"
+end)
+FallSection:NewButton("Oldschool fall", "Gives you oldschool fall", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=5319839762"
+end)
+FallSection:NewButton("Toy Fall", "Gives you toy fall animation", function()
+    animation.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=782846423"
+end)
+------------------------------------------------------------------------------------------------------------------JUMP
+local Jump = Window:NewTab("Jump animations")
+local JumpSection = Jump:NewSection("Jump animations")
+JumpSection:NewButton("Werewolf jump", "Gives you werewolf jump animation", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+end)
+JumpSection:NewButton("Elder jump", "Gives you elder jump animation", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=845398858"
+end)
+JumpSection:NewButton("Rthro jump", "Gives you rthro jump animation", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
+end)
+JumpSection:NewButton("Cartoony jump", "Gives you cartoony jump animation", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=742637942"
+end)
+JumpSection:NewButton("Mage jump", "Gives you mage jump animation", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=707853694"
+end)
+JumpSection:NewButton("Ninja jump", "Gives you ninja jump animation", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+end)
+JumpSection:NewButton("Bubbly jump", "Gives you bubbly jump animation", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=910016857"
+end)
+JumpSection:NewButton("Zombie jump", "Gives you zombie jump animation", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616161997"
+end)
+JumpSection:NewButton("Robot jump", "Gives you robot jump animation", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616090535"
+end)
+JumpSection:NewButton("Stylish jump", "Gives you stylish jump animation", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616139451"
+end)
+JumpSection:NewButton("Oldschool jump", "Gives you oldschool jump", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=5319841935"
+end)
+JumpSection:NewButton("Toy Jump", "Gives you toy jump animation", function()
+    animation.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=782847020"
+end)
+------------------------------------------------------------------------------------------------------------------RUN
+local Run = Window:NewTab("Run animations")
+local RunSection = Run:NewSection("Run animations")
+RunSection:NewButton("Werewolf run", "Gives you werewolf run animation", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083216690"
+end)
+RunSection:NewButton("Elder run", "Gives you elder run animation", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=845386501"
+end)
+RunSection:NewButton("Rthro run", "Gives you rthro run animation", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=2510198475"
+end)
+RunSection:NewButton("Cartoony run", "Gives you cartoony run animation", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=742638842"
+end)
+RunSection:NewButton("Mage run", "Gives you mage run animation", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+end)
+RunSection:NewButton("Ninja run", "Gives you ninja run animation", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=656118852"
+end)
+RunSection:NewButton("Bubbly run", "Gives you bubbly run animation", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=910025107"
+end)
+RunSection:NewButton("Zombie run", "Gives you zombie run animation", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+end)
+RunSection:NewButton("Robot run", "Gives you robot run animation", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616091570"
+end)
+RunSection:NewButton("Sylish run", "Gives you stylish run animation", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616140816"
+end)
+RunSection:NewButton("Oldschool run", "Gives you oldschool run", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=5319844329"
+end)
+RunSection:NewButton("Toy Run", "Gives you toy run animation", function()
+    animation.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=782842708"
+end)
+------------------------------------------------------------------------------------------------------------------CLIMB
+local Climb = Window:NewTab("Climb animations")
+local ClimbSection = Climb:NewSection("Climb animations")
+ClimbSection:NewButton("Werewolf climb", "Gives you werewolf climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083182000"
+end)
+ClimbSection:NewButton("Elder climb", "Gives you elder climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=845392038"
+end)
+ClimbSection:NewButton("Rthro climb", "Gives you rthro climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
+end)
+ClimbSection:NewButton("Cartoony climb", "Gives you cartoony climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=742636889"
+end)
+ClimbSection:NewButton("Mage climb", "Gives you mage climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=707826056"
+end)
+ClimbSection:NewButton("Ninja climb", "Gives you ninja climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=656114359"
+end)
+ClimbSection:NewButton("Bubbly climb", "Gives you bubbly climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=909997997"
+end)
+ClimbSection:NewButton("Zombie climb", "Gives you zombie climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616156119"
+end)
+ClimbSection:NewButton("Robot climb", "Gives you robot climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616086039"
+end)
+ClimbSection:NewButton("Stylish climb", "Gives you stylish climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616133594"
+end)
+ClimbSection:NewButton("Oldschool climb", "Gives you oldschool climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=5319816685"
+end)
+ClimbSection:NewButton("Toy climb", "Gives you toy climb animation", function()
+    animation.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=782843869"
+end)
+------------------------------------------------------------------------------------------------------------------SWIM
+local Swim = Window:NewTab("Swim animations")
+local SwimSection = Swim:NewSection("Swim animations")
+SwimSection:NewButton("Werewolf swim", "Gives you werewolf swim animation", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=1083222527"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=1083225406"
+end)
+SwimSection:NewButton("Elder swim", "Gives you elder swim animation", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=845401742"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=845403127"
+end)
+SwimSection:NewButton("Rthro swim", "Gives you rthro swim animation", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=2510199791"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=2510201162"
+end)
+SwimSection:NewButton("Cartoony swim", "Gives you cartoony swim animation", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=742639220"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=742639812"
+end)
+SwimSection:NewButton("Mage swim", "Gives you mage swim animation", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=707876443"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=707894699"
+end)
+SwimSection:NewButton("Ninja swim", "Gives you ninja swim animation", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=656119721"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=656121397"
+end)
+SwimSection:NewButton("Bubbly swim", "Gives you bubbly swim animation", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=910028158"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=910030921"
+end)
+SwimSection:NewButton("Zombie swim", "Gives you zombie swim animation", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616165109"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=616166655"
+end)
+SwimSection:NewButton("Robot swim", "Gives you robot swim animation", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616092998"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=616094091"
+end)
+SwimSection:NewButton("Stylish swim", "Gives you stylish swim animation", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616143378"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=616144772"
+end)
+SwimSection:NewButton("Oldschool swim", "Gives you olschool swim", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=5319850266"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=5319852613"
+end)
+SwimSection:NewButton("Toy swim", "Gives you toy swim animation", function()
+    animation.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=782844582"
+    animation.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=782845186"
+end)
+IdleSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.M, function()
+	Library:ToggleUI()
+end)
