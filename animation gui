@@ -1,4 +1,8 @@
-print("UI library by xHeptc")
+game.StarterGui:SetCore("SendNotification", {
+Title = "",
+Text = "Script made by s_tompy/Ophiion || UI library by xHeptc",
+Duration = "1",
+})
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Animation gui", "Synapse")
 local Idle = Window:NewTab("Idle animations")
